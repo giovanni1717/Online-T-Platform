@@ -1,0 +1,94 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 20px;
+}
+.good-review-card{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 10px;
+    border: 1px solid #50bc3d;
+    background-color: #d6f2d1;
+    padding: 5px;
+    width: 540px;
+    min-height: 180px;
+    margin: auto;
+    box-shadow: 7px 7px 3px;
+}
+.bad-review-card{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 10px;
+    border: 1px solid #ea5920;
+    background-color: #ffdeac;
+    padding: 5px;
+    width: 540px;
+    min-height: 180px;
+    margin: auto;
+    box-shadow: 7px 7px 3px;
+}
+
+.image_review{
+    padding-top: 10px;
+    padding-left: 5px;
+    height: 50px;
+}
+
+.image_review i{
+    font-size: 16px;
+    color: gold;
+    margin-left: 0;
+    margin-right: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.customer_image{
+    max-width: 80px;
+    max-width: 80px;
+}
+
+.customer_image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+
+.reviewer{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 0;
+    text-align: left;
+    color: #2e2a39;
+    margin-bottom: 0;
+}
+
+.customer_comment{
+    padding-left: 15px;
+    
+    margin-bottom: 0;
+    font-size: 15px;
+    color: #2e2a39;
+    margin-top: 3px;
+    font-family: Poppins;
+    font-weight: 300;
+    padding-right: 5px;
+    text-align: left;
+    font-style: italic;
+}
+
+.no-results {
+    padding-top: 250px;
+    color: #666;
+    font-size: 40px;
+    opacity: 0.5;
+}
